@@ -1,3 +1,4 @@
+#Enter the encoded message from the message generator to decode the message it has some issues
 a=input("Enter encoded message")
 b=""
 c=""
@@ -8,6 +9,4 @@ for i in b:
         c=c+i
     elif (i==' '):
         c=c+' '
-print (c)
-
-           
+print (c)      
